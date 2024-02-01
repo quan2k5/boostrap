@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Billing address</h1>
+      <div class="row">
+        <div class="col">
+          <p>First name</p>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="First name"
+            aria-label="First name"
+          />
+        </div>
+        <div class="col">
+          <p>Last name</p>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Last name"
+            aria-label="Last name"
+          />
+        </div>
+      </div>
+      <br />
+      <p>Username</p>
+      <div class="input-group flex-nowrap">
+        <span class="input-group-text" id="addon-wrapping">@</span>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Username"
+          aria-label="Username"
+          aria-describedby="addon-wrapping"
+        />
+      </div>
+      <br />
+
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label"
+          >Email (Option)</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="you@example.com"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Address</label>
+        <input
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="1234 Main St"
+        ></input>
+      </div>
+    </div>
+    <style>
+        .container{
+            background-color: rgb(220, 220, 220);
+            height: 450px;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
